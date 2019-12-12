@@ -1,0 +1,14 @@
+p {
+    font-size: 24px;
+    font-family: Arial;
+    border: 1px solid blue;
+}
+.red-text {
+    color:red;
+}
+.blue-text {
+    color: blue;
+}
+#main-title {
+    padding-left: 20px;
+}

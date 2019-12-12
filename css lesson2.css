@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+
+#navigation {
+    background-color: red;
+    height: 50px;
+    width: auto;
+}
+
+.left {
+    float: left;
+    width: 200px;
+    background-color: green;
+    height: 400px;
+}
+
+.main {
+    background-color: lightgrey;
+    width: calc(100% - 400px);
+    height: 400px;
+    float: left;
+}
+
+.right {
+    float: left;
+    width: 200px;
+    background-color: green;
+    height: 400px;
+}
+
+.relative1 {
+    background-color: purple;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    top: 20px;
+    left: 20px;
+}
+.relative2 {
+    position: relative;
+    top: -34px;
+    left: 25px;
+    background-color: yellow;
+    width: 190px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+}

@@ -1,0 +1,44 @@
+body {
+    margin:0;
+}
+/* comment */
+
+#header {
+    border: 1px solid #000000;
+    height: 50px;
+}
+
+#logo-icon, logo-text {
+   /* float: left; */
+}
+
+#logo-text {
+    display: none;
+}
+/* skrije stvar v brskalniku */
+
+#logo-icon {
+    height: 50px;
+    width: 50px;
+    background-color: green !important;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    padding: 0px;
+    margin: 0 auto;
+    /* gre v smeri urinega kazalca; če enega spustimo, upošteva unega na drugi strani */
+}
+
+#logo-icon {
+    background-color: red;
+}
+
+
+#body {
+    border: 1px solid #000000;
+    min-height: 200px;
+}
+
+#footer {
+    border: 1px solid #000000;
+}
